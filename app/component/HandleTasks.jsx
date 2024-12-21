@@ -61,7 +61,7 @@ export default function HandleTasks({firstName , lastName , emailAddress , clerk
   return (
     <>
       <TaskContext.Provider value={TaskValues}>
-        <div className="p-5 bg-sky-100 rounded border-sky-600 border-2 mt-[5rem] w-[600px] mx-auto">
+        <div className="p-5 bg-slate-200 rounded border-slate-700 border-2 mt-[5rem] w-[600px] mx-auto">
           <div className="flex justify-between">
             <h1>Hi! {firstName} Add task</h1>
             <div>
