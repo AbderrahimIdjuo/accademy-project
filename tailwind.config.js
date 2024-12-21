@@ -10,6 +10,11 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "var(--primary)",
+        arwani: {
+          100 : "#fda4af",
+          200 : "#e879f9",
+        }
       },
     },
   },
